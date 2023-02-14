@@ -1,0 +1,72 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+body{
+  background-color: rgb(94, 94, 94);
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+/* Adventure Layout */
+.adventure{
+  height: 100vh;
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.adventure > .container{
+  width: 100%;
+  background-color: rgb(53, 53, 53);
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+
+.character-stats, .character-inventory{
+  width: 30%;
+  height: 40%;
+  background-color: rgb(35, 35, 35);
+  color: #fff;
+}
+
+.text{
+  width: 90%;
+  height: 50%;
+  background-color: rgb(35, 35, 35);
+  color: #fff;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#story{
+  font-size: 1.5rem;
+  height: 50%;
+}
+
+.options{
+  height: 40%;
+  width: 100%;
+}
+
