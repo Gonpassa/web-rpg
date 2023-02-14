@@ -78,6 +78,8 @@ function makeChar(btn){
     switch(choice){
         case 'Warrior':
             let player = new Warrior('John', 'Axe')
-            console.log(player)
+            player = JSON.stringify(player)
+            localStorage.setItem('char', player)
+                    
     }
 }
